@@ -21,9 +21,17 @@ export default function Index() {
       <Texto1>TESTE TEXTO 1</Texto1>
 
       <Pressable style={Estilo.botaoGo}>
-        <Link href="./pages/PageStyle">
+        <Link href="./pages/pageStyle">
           <Text style={Estilo.textLink}>
             Ir para a segunda
+          </Text>
+        </Link>
+      </Pressable>
+
+      <Pressable style={Estilo.botaoGo}>
+        <Link href="./pages/toast">
+          <Text style={Estilo.textLink}>
+            Ir para Toast
           </Text>
         </Link>
       </Pressable>

@@ -29,4 +29,8 @@ export default StyleSheet.create({
         justifyContent: "center",
         alignItems: "center",
     },
+    text:{
+        color: "blue", 
+        textAlign: "center" 
+    },
 });

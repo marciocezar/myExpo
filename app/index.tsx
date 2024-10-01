@@ -36,6 +36,14 @@ export default function Index() {
         </Link>
       </Pressable>
 
+      <Pressable style={Estilo.botaoGo}>
+        <Link href="./pages/image">
+          <Text style={Estilo.textLink}>
+            Ir para Image
+          </Text>
+        </Link>
+      </Pressable>
+
     </SafeAreaView>
   );
 }

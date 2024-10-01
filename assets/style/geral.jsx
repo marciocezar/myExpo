@@ -33,4 +33,13 @@ export default StyleSheet.create({
         color: "blue", 
         textAlign: "center" 
     },
+    textToast:{
+        color: "#fff", 
+        textAlign: "center" 
+    },
+    safeArea: {
+        flex: 1,
+        justifyContent: "center",
+        alignItems: "center",
+    }
 });

@@ -41,5 +41,10 @@ export default StyleSheet.create({
         flex: 1,
         justifyContent: "center",
         alignItems: "center",
+    },
+    tinyLogo: {
+        width: 50,
+        height: 50,
     }
+
 });

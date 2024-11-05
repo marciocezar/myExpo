@@ -13,7 +13,7 @@ export default function Index() {
         justifyContent: "center",
         alignItems: "center",
       }}
-    >
+    > 
       <Text>Bem-vindo ao novo teste!!!  </Text>
       <Primeiro>Primeiro 7</Primeiro>
       <Teste cor1="blue" cor2="red" />
